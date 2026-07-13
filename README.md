@@ -4,8 +4,8 @@
     <img src="./header.svg" alt="Eki Zulfar Rachman Banner" width="800" />
   </div>
 
-  <!-- METRIK PAMERAN (Bungkus lencana dalam satu div dengan margin bawah) -->
-  <div style="margin-bottom: 30px;">
+  <!-- METRIK PAMERAN: Margin-top ditambah 10px untuk turun sedikit -->
+  <div style="margin-top: 10px; margin-bottom: 30px;">
     <a href="https://github.com/EkiZR">
       <img src="https://img.shields.io/github/stars/EkiZR?style=for-the-badge&color=f59e0b&labelColor=020c09&logo=github&logoColor=f59e0b" alt="GitHub Stars" />
     </a>
