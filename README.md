@@ -2,7 +2,7 @@
   <!-- HEADER UTAMA -->
   <img src="./header.svg" alt="Eki Zulfar Rachman Banner" width="800" />
 
-  <br/><br/>
+  <br/>
 
   <!-- METRIK PAMERAN -->
   <a href="https://github.com/EkiZR">
@@ -11,7 +11,7 @@
   <img src="https://komarev.com/ghpvc/?username=EkiZR&color=10b981&style=for-the-badge&labelColor=020c09&label=PROFILE+VIEWS" alt="Profile Views" />
 
   <!-- Kasih jarak (padding) biar gak mepet ke lencana -->
-  <br/><br/>
+  <br/>
 
   <!-- TERMINAL KODE -->
   <img src="./terminal.svg" alt="Animated Developer Terminal" width="800" />
