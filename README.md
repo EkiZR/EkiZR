@@ -2,8 +2,7 @@
   <!-- HEADER UTAMA -->
   <img src="./header.svg" alt="Eki Zulfar Rachman Banner" width="800" />
 
-  <!-- Tambah jarak ekstra agar Stats tidak mepet ke header -->
-  <br/><br/><br/>
+  <br/><br/>
 
   <!-- METRIK PAMERAN -->
   <a href="https://github.com/EkiZR">
@@ -11,7 +10,8 @@
   </a>
   <img src="https://komarev.com/ghpvc/?username=EkiZR&color=10b981&style=for-the-badge&labelColor=020c09&label=PROFILE+VIEWS" alt="Profile Views" />
 
-  <!-- Jarak dihapus agar terminal naik merapat ke Stats -->
+  <!-- Kasih jarak (padding) biar gak mepet ke lencana -->
+  <br/><br/>
 
   <!-- TERMINAL KODE -->
   <img src="./terminal.svg" alt="Animated Developer Terminal" width="800" />
