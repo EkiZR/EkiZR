@@ -1,0 +1,133 @@
+<svg fill="none" viewBox="0 0 800 240" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; position: relative;">
+      
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+
+        .header-container {
+          position: relative;
+          z-index: 2;
+        }
+
+        /* Glowing Name */
+        .name {
+          font-family: 'Syne', sans-serif;
+          font-size: 48px;
+          font-weight: 800;
+          margin: 0;
+          background: linear-gradient(135deg, #10b981 0%, #06d6a0 40%, #06b6d4 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          filter: drop-shadow(0 0 12px rgba(6,182,212,0.3));
+          animation: titleGlow 4s ease-in-out infinite;
+        }
+
+        @keyframes titleGlow {
+          0%, 100% { filter: drop-shadow(0 0 12px rgba(6,182,212,0.3)); }
+          50% { filter: drop-shadow(0 0 24px rgba(16,185,129,0.5)); }
+        }
+
+        /* Subtitle */
+        .subtitle {
+          font-family: 'Syne', sans-serif;
+          color: #a3aeb8;
+          font-size: 16px;
+          margin-top: 8px;
+          font-weight: 700;
+          letter-spacing: 0.5px;
+        }
+
+        .rocket {
+          display: inline-block;
+          animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-4px); }
+        }
+
+        /* Cyber Badges */
+        .badges-wrapper {
+          display: flex;
+          gap: 16px;
+          justify-content: center;
+          margin-top: 24px;
+          font-family: 'JetBrains Mono', monospace;
+        }
+
+        .cyber-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 16px;
+          border-radius: 4px;
+          font-size: 13px;
+          font-weight: 500;
+          background: rgba(16,185,129,0.05);
+          border: 1px solid rgba(16,185,129,0.3);
+          color: #a3e6d3;
+          box-shadow: 0 0 15px rgba(16,185,129,0.05), inset 0 0 10px rgba(16,185,129,0.05);
+        }
+
+        .cyber-badge.cyan {
+          background: rgba(6,182,212,0.05);
+          border-color: rgba(6,182,212,0.3);
+          color: #93c5fd;
+          box-shadow: 0 0 15px rgba(6,182,212,0.05), inset 0 0 10px rgba(6,182,212,0.05);
+        }
+
+        .icon-box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20px;
+          height: 20px;
+          border-radius: 2px;
+          background: rgba(16,185,129,0.15);
+          color: #10b981;
+        }
+        
+        .cyan .icon-box {
+          background: rgba(6,182,212,0.15);
+          color: #06b6d4;
+        }
+
+        /* Subtle grid background */
+        .bg-grid {
+          position: absolute;
+          inset: 0;
+          background-image: 
+            linear-gradient(to right, rgba(16,185,129,0.03) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(16,185,129,0.03) 1px, transparent 1px);
+          background-size: 40px 40px;
+          mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
+          -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
+          z-index: 1;
+        }
+      </style>
+
+      <div class="bg-grid"></div>
+
+      <div class="header-container">
+        <h1 class="name">Eki Zulfar Rachman</h1>
+        <div class="subtitle">
+          <span class="rocket">🚀</span> Building Modern Digital Interfaces &amp; Interactive Experiences <span class="rocket">🚀</span>
+        </div>
+
+        <div class="badges-wrapper">
+          <div class="cyber-badge">
+            <div class="icon-box">{'{}'}</div>
+            Frontend Developer
+          </div>
+          <div class="cyber-badge cyan">
+            <div class="icon-box">⌖</div>
+            Bekasi, Indonesia
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
