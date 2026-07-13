@@ -1,9 +1,9 @@
 <div align="center">
   <!-- HEADER UTAMA -->
-  <div style="margin-bottom: 20px;">
+  <div>
     <img src="./header.svg" alt="Eki Zulfar Rachman Banner" width="800" />
   </div>
-
+  <br/>
   <!-- METRIK PAMERAN: Margin-top ditambah 10px untuk turun sedikit -->
   <div >
     <a href="https://github.com/EkiZR">
