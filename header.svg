@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 800 130" width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; font-family: sans-serif; position: relative;">
       
@@ -53,7 +53,7 @@
           display: flex;
           gap: 16px;
           justify-content: center;
-          margin-top: 20px;
+          margin-top: 18px;
           font-family: 'JetBrains Mono', monospace;
         }
 
@@ -94,22 +94,7 @@
           background: rgba(6,182,212,0.15);
           color: #06b6d4;
         }
-
-        /* Subtle grid background */
-        .bg-grid {
-          position: absolute;
-          inset: 0;
-          background-image: 
-            linear-gradient(to right, rgba(16,185,129,0.03) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(16,185,129,0.03) 1px, transparent 1px);
-          background-size: 40px 40px;
-          mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
-          -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 80%);
-          z-index: 1;
-        }
       </style>
-
-      <div class="bg-grid"></div>
 
       <div class="header-container">
         <h1 class="name">Eki Zulfar Rachman</h1>
@@ -124,7 +109,6 @@
           </div>
           <div class="cyber-badge cyan">
             <div class="icon-box">
-              <!-- Map Pin Icon -->
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
